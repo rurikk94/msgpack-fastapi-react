@@ -1,0 +1,17 @@
+[project]
+name = "back"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiocache>=0.12.3",
+    "brotli-asgi>=1.5.0",
+    "faker>=38.2.0",
+    "fastapi[standard]>=0.121.3",
+    "msgpack>=1.1.2",
+    "protobuf>=6.33.1",
+    "pydantic>=2.12.4",
+    "uvicorn[standard]>=0.38.0",
+    "zstd-asgi>=1.0",
+]
